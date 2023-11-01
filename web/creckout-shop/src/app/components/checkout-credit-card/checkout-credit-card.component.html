@@ -1,0 +1,21 @@
+<mat-card class="top-bar ">
+
+    <span class="return p-2 bd-highligh">
+      Voltar
+    </span>
+    <mat-horizontal-stepper class="stepper">
+      <mat-step>
+        <ng-template matStepLabel>Carrinho</ng-template>
+        <app-carrinho></app-carrinho>
+      </mat-step>
+      <mat-step>
+        <ng-template matStepLabel>Pagamento</ng-template>
+        <app-pagamento></app-pagamento>
+      </mat-step>
+      <mat-step>
+        <ng-template matStepLabel>Pedido Finalizado</ng-template>
+        <app-pedido-finalizado></app-pedido-finalizado>
+      </mat-step>
+    </mat-horizontal-stepper>
+</mat-card>
+

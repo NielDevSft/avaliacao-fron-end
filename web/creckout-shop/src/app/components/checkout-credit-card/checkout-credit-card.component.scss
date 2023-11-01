@@ -1,0 +1,17 @@
+.top-bar {
+  background: none;
+  box-shadow: none;
+  padding: 0;
+}
+.return {
+  // display: ;
+}
+
+mat-horizontal-stepper {
+
+  &.stepper{
+    background: inherit;
+    width: 100%;
+  }
+
+}

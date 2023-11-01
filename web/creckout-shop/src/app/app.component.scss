@@ -1,0 +1,13 @@
+.main-content{
+  border-radius: 0;
+  background: linear-gradient(180deg, rgba(1,238,85,1) 30%, rgba(249,249,249,1) 30%);
+  height: 100%;
+
+
+  @media only screen and (min-width: 900px){
+    &.main-content {
+      background: linear-gradient(90deg, rgba(1,238,85,1) 30%, rgba(249,249,249,1) 30%);
+    }
+  }
+}
+
